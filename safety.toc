@@ -1,0 +1,12 @@
+## Interface: 30401
+## Title: safety
+## Notes: hey
+## Author: me
+## Version: 05202023a
+
+
+## DefaultState: enabled
+## SavedVariablesPerCharacter: settings
+
+main.lua
+style.xml

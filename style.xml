@@ -1,0 +1,20 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="main.lua"/>
+    <Frame name="safetyoptions" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent">
+        <Scripts>
+            <OnLoad>
+                safetyoptions_init();
+            </OnLoad>
+            <OnEvent>
+                safetyoptions_event();
+            </OnEvent>
+            <OnShow>
+                safetyoptions_load();
+            </OnShow>
+            <OnHide>
+                safetyoptions_hide();
+            </OnHide>
+        </Script>
+    </Frame>
+</Ui>
